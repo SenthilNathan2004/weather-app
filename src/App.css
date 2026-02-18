@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.weather-form {
+  margin-bottom: 2rem;
+}
+
+.weather-form input {
+  padding: 0.7rem;
+  width: 60%;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 1rem;
+}
+
+.weather-form button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: #4facfe;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.weather-form button:hover {
+  background: #00f2fe;
+}
+
+.loading {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.weather-info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.chart-container {
+  margin-top: 2rem;
+}
